@@ -1,0 +1,149 @@
+{
+  "Recipes": [
+    {
+      "Name": "Sword",
+      "RequieredResources": [
+        {
+          "ResourceType": "Wood",
+          "ResourceIcon": "Wood Icon",
+          "Amount": 20
+        },
+        {
+          "ResourceType": "IronOre",
+          "ResourceIcon": "IronOre Icon",
+          "Amount": 5
+        }
+      ],
+      "RequieredItems": [
+
+      ]
+    },
+    {
+      "Name": "Cloth",
+      "RequieredResources": [
+        {
+          "ResourceType": "BearSkin",
+          "ResourceIcon": "BearSkin Icon",
+          "Amount": 2
+        }
+      ],
+      "RequieredItems": [
+
+      ]
+    },
+    {
+      "Name": "Bear Trap",
+      "RequieredResources": [
+        {
+          "ResourceType": "PoisonBerry",
+          "ResourceIcon": "PoisonBerry Icon",
+          "Amount": 10
+        },
+        {
+          "ResourceType": "RawMeat",
+          "ResourceIcon": "Meat Icon",
+          "Amount": 1
+        }
+      ],
+      "RequieredItems": [
+
+      ]
+    },
+    {
+      "Name": "Campfire",
+      "RequieredResources": [
+        {
+          "ResourceType": "Wood",
+          "ResourceIcon": "Wood Icon",
+          "Amount": 10
+        },
+        {
+          "ResourceType": "IronOre",
+          "ResourceIcon": "IronOre Icon",
+          "Amount": 5
+        }
+      ],
+      "RequieredItems": [
+        {
+          "ItemType": "Cloth",
+          "ItemIcon": "Cloth Icon",
+          "Amount": 2
+        }
+      ]
+    },
+    {
+      "Name": "Torch",
+      "RequieredResources": [
+        {
+          "ResourceType": "Wood",
+          "ResourceIcon": "Wood Icon",
+          "Amount": 10
+        }
+      ],
+      "RequieredItems": [
+        {
+          "ItemType": "Cloth",
+          "ItemIcon": "Cloth Icon",
+          "Amount": 1
+        }
+      ]
+    },
+    {
+      "Name": "Shield",
+      "RequieredResources": [
+        {
+          "ResourceType": "GoldOre",
+          "ResourceIcon": "GoldOre Icon",
+          "Amount": 10
+        },
+        {
+          "ResourceType": "IronOre",
+          "ResourceIcon": "IronOre Icon",
+          "Amount": 10
+        }
+      ],
+      "RequieredItems": [
+
+      ]
+    },
+    {
+      "Name": "Bridge",
+      "RequieredResources": [
+        {
+          "ResourceType": "Wood",
+          "ResourceIcon": "Wood Icon",
+          "Amount": 15
+        }
+      ],
+      "RequieredItems": [
+        {
+          "ItemType": "Cloth",
+          "ItemIcon": "Cloth Icon",
+          "Amount": 2
+        }
+      ]
+    },
+    {
+      "Name": "Empty Bucket",
+      "RequieredResources": [
+        {
+          "ResourceType": "IronOre",
+          "ResourceIcon": "IronOre Icon",
+          "Amount": 10
+        },
+        {
+          "ResourceType": "Wood",
+          "ResourceIcon": "Wood Icon",
+          "Amount": 15
+        }
+      ],
+      "RequieredItems": [
+        {
+          "ItemType": "Cloth",
+          "ItemIcon": "Cloth Icon",
+          "Amount": 1
+        }
+      ]
+    }
+  ]
+}

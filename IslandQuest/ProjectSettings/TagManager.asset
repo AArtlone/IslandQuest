@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Resource Drop
+  - Item Drop
+  - Trap
+  - Resource Mine
+  - River Piece
+  - Campfire
+  - CanBeSetOnFire
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - P1 Cam
+  - P2 Cam
+  - P1 UI
+  - P2 UI
+  - UI Testing Karen
+  - DirtMap
+  - GrassMap
+  - Mask
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player 1
+    uniqueID: 1861985521
+    locked: 0
+  - name: Player 2
+    uniqueID: 223273789
+    locked: 0
+  - name: Bear
+    uniqueID: 568433123
+    locked: 0
+  - name: Crab
+    uniqueID: 1001992337
+    locked: 0
