@@ -38,15 +38,6 @@ public class GameManager : MonoBehaviour
         gameStarted = false;
         AudioManager.Instance.nightTimeSource.clip = AudioManager.Instance.nightTime;
         //spawn players after all players are confirmed in
-    }
-
-    private void Update()
-    {
-        if (gameStarted == false)
-            return;
-
-        gameStarted = true;
-
         StartCoroutine(GameStartedSequenceCo());
     }
 
@@ -59,6 +50,7 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         AnnounceRound();
+        EnvironementGenerator.Instance.SpawnAnimals();
         yield return new WaitForSeconds(4f);
         ChallengesManager.Instance.AnnounceNewChallenges();
     }

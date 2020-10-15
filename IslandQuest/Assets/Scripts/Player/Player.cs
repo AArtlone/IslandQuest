@@ -264,8 +264,6 @@ public class Player : MonoBehaviour
     }
     public void OnButtonSouth()
     {
-        if (VideoManager.Instance.videoPlayer.isPlaying)
-            VideoManager.Instance.SkipVideo();
         if (IsShopOpen)
         {
             BuyItem();
